@@ -1,0 +1,482 @@
+
+
+/* FONT INPUTS PLACED HERE: */
+
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/oswald/v29/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUZiZQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+  
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}  
+
+
+/* CLASS STYLING PLACED HERE: */
+
+.buttons {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    /* color: brown; */
+}
+
+/* INDIVIDUAL STYLING PLACED HERE: */
+
+.interactive-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #318F43;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+
+header h1 {
+    /* display: flex; */
+    font-family: "Oswald";
+    font-size:60px;
+    text-transform: uppercase;
+    color: white;
+    margin: 10px 0px;
+}
+
+header p {
+    /* display: flex; */
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 965px;
+    /* justify-items: center; */
+    /* align-items: center; */
+}
+
+#tree-small {
+    /* position: absolute; */
+    justify-content: right;
+    width: 30%;
+    height: 100%;
+    /* object-fit: cover; */
+    padding-right: 35px;
+    z-index:2
+}
+
+/* #SCENE */
+
+#scene-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color:red; */ 
+    justify-content: space-around;
+    background-image: url(./img/interactive-background.png);
+    background-size: contain;
+}
+
+#scene-1-texts {
+    width: 500px;
+
+}
+
+#scene-1-texts h2{
+    font-family: "Oswald";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 20px;
+
+
+}
+
+#scene-1-texts h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+
+
+    /* text-transform: uppercase; */
+}
+
+#scene-1-texts p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    /* margin: 10px; */
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+
+    /* text-transform: uppercase; */
+}
+
+
+/* SCENE2 */
+
+#scene-2 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color:red; */
+    justify-content: space-around;
+    background-image: url(./img/interactive-background.png);
+    background-size: contain;
+}
+
+#scene-2-texts {
+    width: 500px;
+
+}
+
+#scene-2-texts h2{
+    font-family: "Oswald";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 20px;
+
+
+}
+
+#scene-2-texts h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+
+
+    /* text-transform: uppercase; */
+}
+
+#scene-2-texts p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    /* margin: 10px; */
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+
+    /* text-transform: uppercase; */
+}
+
+
+/* SCENE3 */
+
+#scene-3 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color:red; */
+    justify-content: space-around;
+    background-image: url(./img/interactive-background.png);
+    background-size: contain;
+}
+
+#scene-3-texts {
+    width: 500px;
+
+}
+
+#scene-3-texts h2{
+    font-family: "Oswald";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 20px;
+
+
+}
+
+#scene-3-texts h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+
+
+    /* text-transform: uppercase; */
+}
+
+#scene-3-texts p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    /* margin: 10px; */
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+
+    /* text-transform: uppercase; */
+}
+
+/* SCENE 4 */
+
+#scene-4 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color:red; */
+    justify-content: space-around;
+    background-image: url(./img/interactive-background.png);
+    background-size: contain;
+}
+
+#scene-4-texts {
+    width: 500px;
+
+}
+
+#scene-4-texts h2{
+    font-family: "Oswald";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 20px;
+
+
+}
+
+#scene-4-texts h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+
+
+    /* text-transform: uppercase; */
+}
+
+#scene-4-texts p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    /* margin: 10px; */
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+
+    /* text-transform: uppercase; */
+}
+
+/* SCENE 5*/
+
+#scene-5 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color:red; */
+    justify-content: space-around;
+    background-image: url(./img/interactive-background.png);
+    background-size: contain;
+}
+
+#scene-5-texts {
+    width: 500px;
+
+}
+
+#scene-5-texts h2{
+    font-family: "Oswald";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 20px;
+
+
+}
+
+#scene-5-texts h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+
+
+    /* text-transform: uppercase; */
+}
+
+#scene-5-texts p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    /* margin: 10px; */
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+
+    /* text-transform: uppercase; */
+}
+
+/* SCENE 6*/
+
+#scene-6 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color:red; */
+    justify-content: space-around;
+    background-image: url(./img/interactive-background.png);
+    background-size: contain;
+}
+
+#scene-6-texts {
+    width: 500px;
+
+}
+
+#scene-6-texts h2{
+    font-family: "Oswald";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 20px;
+
+
+}
+
+#scene-6-texts h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+
+
+    /* text-transform: uppercase; */
+}
+
+#scene-6-texts p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    /* margin: 10px; */
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+
+    /* text-transform: uppercase; */
+}
+
+/* SCENE 7*/
+
+#scene-7 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color:red; */
+    justify-content: space-around;
+    background-image: url(./img/interactive-background.png);
+    background-size: contain;
+}
+
+#scene-7-texts {
+    width: 500px;
+
+}
+
+#scene-7-texts h2{
+    font-family: "Oswald";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 20px;
+
+
+}
+
+#scene-7-texts h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+
+
+    /* text-transform: uppercase; */
+}
+
+#scene-7-texts p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    /* margin: 10px; */
+    margin-left: 20px;
+    height: 30px;
+    width: 400px;
+
+    /* text-transform: uppercase; */
+}
+
+/* SCENE 8*/
+
+#scene-8 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 0px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* background-color:red; */
+    justify-content: space-around;
+    background-image: url(./img/interactive-background.png);
+    background-size: contain;
+    
+}
+
+#scene-8-texts h2{
+    font-family: "Oswald";
+    font-size: 90px;
+    text-transform: uppercase;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+
+#scene-8-texts {
+    width: 500px;
+
+}
+
+#scene-8-texts h3{
+    font-family: "Montserrat";
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+
+
+    /* text-transform: uppercase; */
+}
+
+#scene-8-texts p{
+    font-family: "Montserrat";
+    font-size: 25px;
+    /* margin: 10px; */
+    margin-left: 20px;
+    /* height: 30px; */
+    width: 400px;
+    justify-content: left;
+
+    /* text-transform: uppercase; */
+}
